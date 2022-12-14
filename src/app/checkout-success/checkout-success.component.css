@@ -1,0 +1,36 @@
+body{background-color: #000}.card{  text-align: center;  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent; padding: 10px;};
+
+
+.back a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.confirmation-header {
+
+    color: #da0606;
+}
+.btn{
+    background-color: #da0606;
+    border-color: #da0606;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 4vh;
+    padding: 1vh;
+    border-radius: 0;
+}
+.btn:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none; 
+}
+.btn:hover{
+    color: white;
+}

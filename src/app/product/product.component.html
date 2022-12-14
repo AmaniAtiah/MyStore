@@ -1,0 +1,10 @@
+
+
+    <div class="container">
+        <div class="product">
+            <app-product-list *ngFor="let product of products" [product]="product" (addProduct)="addProductToCart(product)" ></app-product-list>
+
+            </div>
+        </div>
+  
+

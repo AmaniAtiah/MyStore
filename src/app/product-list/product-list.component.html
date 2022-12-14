@@ -1,0 +1,22 @@
+        <div class="product-grid">
+            <div class="product-image"> 
+                <a [routerLink]="['product', product.id]" class="image">
+                    <img class="pic-1" src="{{product.url}}">
+                </a>
+                <ul class="product-links">
+                    <li><a  (click)="addToCart(product)"><i class="fa fa-shopping-bag"></i> Add to cart</a></li>
+                </ul>
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a [routerLink]="['product', product.id]">{{product.name}}</a></h3>
+                <div class="price">$ {{product.price}}</div>
+            </div>
+
+            <select  [(ngModel)]="selectedItem"  style="width: 100px;"  class="product-item-detail form-select" (ngModelChange)="selectedChange($event)" [ngModelOptions]="{ standalone: true }">
+                <option *ngFor="let qty of quantity" value="{{ qty }}">
+                  {{ qty }}
+                </option>
+              </select>
+        </div>
+
+<!-- <p>{{product.name}}</p> -->
