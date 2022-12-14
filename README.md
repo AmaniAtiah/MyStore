@@ -27,5 +27,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-# Resources
-#### Cart page: https://bbbootstrap.com/snippets/bootstrap-ecommerce-shopping-cart-item-summary-44021562
+# Resources 
+### HTML template
+#### cart : https://bbbootstrap.com/snippets/bootstrap-ecommerce-shopping-cart-item-summary-44021562
+#### details product: https://bbbootstrap.com/snippets/bootstrap-ecommerce-single-product-page-size-attribute-59223596
+#### product list: https://bestjquery.com/tutorial/product-grid/demo150/
