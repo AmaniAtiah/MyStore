@@ -1,4 +1,5 @@
 # MyStore
+It is a shopping application where users can view products, add products to the shopping cart, and complete the payment process
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
